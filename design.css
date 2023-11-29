@@ -6,10 +6,6 @@
 
 .navbar {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin: 0 auto;
@@ -18,6 +14,7 @@
 .navbar-nav {
   list-style: none;
   display: flex;
+  justify-content: space-around;
 }
 .container {
   width: 1170px;
