@@ -14,14 +14,38 @@
 .navbar-nav {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.min-blog-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.list-group {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  list-style: none;
 }
 .container {
   width: 1170px;
+  margin: auto;
 }
 .header {
   background-color: #b20f14;
 }
+
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
